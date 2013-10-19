@@ -1,6 +1,6 @@
 require "ice_cube"
-require_relative "utilities/form_options_ext"
-require_relative "utilities/tag_ext"
+require_dependency File.expand_path("../utilities/form_options_ext", __FILE__)
+require_dependency File.expand_path("../utilities/tag_ext", __FILE__)
 
 module RecurringSelectHelper
   module FormHelper
